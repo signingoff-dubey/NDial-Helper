@@ -1,0 +1,8 @@
+# Release repository: binaries and user documentation only.
+*
+!README.md
+!PRIVACY.md
+!LICENSE
+!.gitignore
+!*.apk
+!*.apk.sha256

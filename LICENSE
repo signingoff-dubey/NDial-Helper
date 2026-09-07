@@ -1,0 +1,32 @@
+NDial Recorder
+Copyright (c) 2026 Hearthborn Studios. All rights reserved.
+
+The application binary (APK) in this repository is made available for personal, non-commercial use
+on devices you own, solely for use together with the NDial application by Hearthborn Studios.
+
+You may download and install the unmodified APK from this repository.
+
+You may not, without prior written permission from Hearthborn Studios:
+
+  - redistribute, mirror, or re-upload the APK, in whole or in part, modified or unmodified;
+  - decompile, disassemble, reverse engineer, or otherwise attempt to derive the source code of
+    the APK, except to the extent such restriction is prohibited by applicable law;
+  - modify, adapt, translate, or create derivative works of the APK;
+  - remove or alter any proprietary notices;
+  - use the APK, or any part of it, to build, train, or assist in building another application.
+
+No source code is provided or licensed. The source code of NDial Recorder is proprietary and
+confidential.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT
+NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND
+NON-INFRINGEMENT. IN NO EVENT SHALL HEARTHBORN STUDIOS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY ARISING FROM THE USE OF THE SOFTWARE.
+
+Recording telephone calls is regulated, and in many places requires the consent of every party.
+Compliance with the law that applies to you is your responsibility.
+
+Third-party components: this application bundles scrcpy-server (Copyright Genymobile, Romain
+Vimont), licensed under the Apache License, Version 2.0 (https://www.apache.org/licenses/LICENSE-2.0),
+and uses Shizuku API (Copyright Rikka, Apache License 2.0). Those components remain under their own
+licences; nothing above restricts them.
