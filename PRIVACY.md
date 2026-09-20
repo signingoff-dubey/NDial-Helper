@@ -1,6 +1,6 @@
 # NDial Recorder — Privacy Policy
 
-Last updated: 7 September 2026
+Last updated: 20 September 2026
 Publisher: Hearthborn Studios
 
 ---
@@ -22,6 +22,17 @@ is a separate app from NDial and does one thing.
   file path ever crosses between them.
 - **We cannot read your recordings.** They never leave the device.
 
+## Transcription and translation
+
+- **Transcribing a call turns its audio into text on your device.** The speech models are inside the
+  app; no audio and no text is sent to any server, ours or anyone else's, and it works with no
+  network connection at all.
+- **Translation works the same way**, on downloaded language models that run on the device.
+- **Transcripts are stored on your device only**, in this app's private storage, alongside the
+  recordings and under the same rules: not uploaded, not backed up to any server of ours, not shared,
+  not used to train anything. NDial does not receive them.
+- Delete a transcript in the app; uninstalling removes every transcript along with every recording.
+
 ## Deleting recordings
 
 Delete individual recordings inside the app. Uninstalling the app removes all of them, permanently
@@ -39,6 +50,8 @@ information, no call metadata.
 - **Microphone / call audio access**, used only for the recording you asked for and for a short test
   recording when you run the device check.
 - **Notifications**, to tell you the result of the device check.
+- **Speech models** shipped inside the app, used on-device to transcribe and translate. They send
+  nothing anywhere.
 - **Phone state**, to know when a call is active.
 - This app does **not** read your contacts, your call log, or your messages. It does not know who you
   are calling, and does not write phone numbers into recording filenames or anywhere else.
