@@ -9,8 +9,8 @@ and never leave your device.
 
 ## Download
 
-**Latest: 0.1.3** — on the [Releases page](https://github.com/signingoff-dubey/NDial-Helper/releases/latest),
-as `NDialRecorder-0.1.3.apk`, with its SHA-256 beside it.
+**Latest: 0.1.4** — on the [Releases page](https://github.com/signingoff-dubey/NDial-Helper/releases/latest),
+as `NDialRecorder-0.1.4.apk`. GitHub shows its SHA-256 next to the file.
 
 It is a large download (about 165 MB) because the speech models for live transcription are inside
 the app rather than fetched later. Nothing is downloaded behind your back, and it works with no
