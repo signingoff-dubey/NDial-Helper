@@ -17,10 +17,21 @@ is a separate app from NDial and does one thing.
 - **Recordings are stored on your device only**, in this app's private storage. They are **not**
   uploaded, not backed up to any server of ours, not shared with third parties, and not used to train
   anything.
-- **NDial does not receive your recordings.** The two apps exchange only control messages — start,
-  stop, current state, whether this device supports recording, and an access token. No audio and no
-  file path ever crosses between them.
+- **NDial can play your recordings, but does not keep them.** NDial's Recorded Calls screen lists
+  your recordings and transcripts and plays them by reading them from this app, through a connection
+  only the genuine, signed NDial app can open (every request is checked against NDial's signing
+  certificate). No file path is shared, and NDial keeps no copy.
 - **We cannot read your recordings.** They never leave the device.
+- **No backups or device transfers.** Recordings, transcripts and everything below are excluded from
+  Android's cloud backup and from the copy a new phone offers to make during setup.
+
+## NDial's own files kept here
+
+Since version 0.1.7 this app also keeps a copy of some of **NDial's own** files, so they are not lost
+if NDial is uninstalled and installed again: the video and voice call recordings NDial makes itself,
+voicemails NDial received, and the AI summaries of your transcripts. They are stored in this app's
+private storage under the same rules as the recordings, only NDial can read or delete them, and NDial
+deletes its copy here whenever you delete the item in NDial. Uninstalling this app removes them.
 
 ## Transcription and translation
 
@@ -30,7 +41,7 @@ is a separate app from NDial and does one thing.
 - **Translation works the same way**, on downloaded language models that run on the device.
 - **Transcripts are stored on your device only**, in this app's private storage, alongside the
   recordings and under the same rules: not uploaded, not backed up to any server of ours, not shared,
-  not used to train anything. NDial does not receive them.
+  not used to train anything. NDial can show them, read from this app the same way as recordings.
 - Delete a transcript in the app; uninstalling removes every transcript along with every recording.
 
 ## Deleting recordings
